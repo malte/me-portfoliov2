@@ -9,16 +9,16 @@ layout: 'base.njk'
   <div class="mt-4">
     <div class="flex">
       <span class="w-10">tasks</span>
-      <span class="pl-2 uppercase font-bold">{{ tasks | join(', ') }}</span>
+      <span class="pl-2 text-gray-500 uppercase tracking-wide font-normal dark:text-gray-300">{{ tasks | join(', ') }}</span>
     </div>
     <div class="flex">
       <span class="w-10">client</span>
-      <span class="pl-2 font-bold">{{ clientName }}</span>
+      <span class="pl-2 text-gray-500 font-normal dark:text-gray-300">{{ clientName }}</span>
     </div>
     {% if projectUrl %}
     <div class="flex">
       <span class="w-10">visit</span>
-      <a class="pl-2 text-purple-700 hover:underline font-bold" href="{{ projectUrl }}" target="_blank" rel="noreferrer" >Project Website</a>
+      <a class="pl-2 text-purple-700 hover:underline dark:text-purple-500" href="{{ projectUrl }}" target="_blank" rel="noreferrer" >Project Website</a>
     </div>
     {% endif %}
 
@@ -30,7 +30,7 @@ layout: 'base.njk'
     {{ content | safe }}
   </div>
   <div class="mx-auto w-full flex justify-center my-12">
-    <a class="bg-purple-600 hover:bg-purple-800 text-white text-xl px-8 py-2 rounded-full " href="/work">more projects</a>
+    <a class="btn" href="/work">more projects</a>
   </div>
 </div>
 </article>

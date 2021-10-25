@@ -12,36 +12,15 @@ module.exports = {
   }, 
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-      extend: {
-        typography: {
-          DEFAULT: {
-            dark: {
-              css: {
-                  color: '#fff'
-              }
-            },
-            css: {
-              lineHeight:'1.5',
-              p: {
-                maxWidth: '65ch'
-              },
-              li: {
-                maxWidth: '65ch'
-              },
-              a: {
-                color: 'rgb(109, 40, 217)',
-                textDecoration: 'none',
-                '&:hover': {
-                  textDecoration: 'underline',
-                },
-              },
-            },
-          },
-        }
-      },
+    fontFamily: {
+      'darkmodeOn': ['darkmode-on', "Helvetica Neue", "Noto Sans", 'sans-serif'],
+      'darkmodeOff': ['darkmode-off', "Helvetica Neue", "Noto Sans", 'sans-serif']
     },
+  },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: ['dark']
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
