@@ -17,7 +17,6 @@ date: 2017-10-01
 
 ## Branding Goals & Solution
 Seven Summits Arbitration were looking for a classic look, when they were starting out with their own firm. Although being relativly young, they wanted the long years of experience they nevertheless had, show on first sight. So we choose the font 'Noe Text', a sharp antiqua with a modern edge, and carefully selected a warm shade of blue 'himmiblau', that freshens the classic look.
-[testlink](#)
 
 ## Print
 All Printmatter for 7SA sports 'himmiblau', bavarian for sky-blue, a blue Pantone Color, which allows for a much more saturated color than process print colors, especialy when it comes to blue.

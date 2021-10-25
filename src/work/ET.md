@@ -16,8 +16,7 @@ date: 2015-10-02
 ---
 
 ## Branding Goals & Solution
-The branding for ET revolves around the contrast between the soft material and the hard tools necessary for injection molding.
-The octagon base for the logo also lends its shape from the form of the huts, which make the production facilities.
+The branding for ET revolves around the contrast between the soft material and the hard tools necessary for injection molding. The octagon base for the logo also lends its shape from the form of the huts, which make the production facilities. 
 As a additional graphic element a collection of green and blue circles stand for the silicon ring, which is the signature product of the company.
 
 ## Print
