@@ -1,20 +1,31 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "public/assets/blog"
-public_folder: "/assets/blog"
+media_folder: "public/assets/media"
+public_folder: "/public/work"
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/blog"
+  - name: "work"
+    label: "Work"
+    folder: "src/work"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image caption", name: "imageAlt", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - { label: 'Layout', name: 'single', widget: 'hidden' }
+      - { label: 'Meta Title', name: 'metaTitle', widget: 'string' }
+      - { label: 'Meta Description', name: 'metaDescription', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Client Name', name: 'clientName', widget: 'string' }
+      - { label: 'Project URL', name: 'projectUrl', widget: 'string' }
+      - {
+          label: 'Featured Image',
+          name: 'featuredImg',
+          widget: 'image',
+          required: false
+        }
+      - { label: 'BG Color', name: 'bgColor', widget: 'color' }
+      - { label: 'Featured', name: 'featured', widget: 'boolean' }
+      - { label: 'Tasks', name: 'tasks', widget: 'list' }
+      - { label: 'Project Year', name: 'year', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

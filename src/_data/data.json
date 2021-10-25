@@ -8,7 +8,6 @@
 			"name": "Branding & Identity",
 			"description": "Together, we define your brands core values and dress your communication accordingly",
 			"tags": [
-				"Visual Language",
 				"Logo Design", 
 				"Brand Typography", 
 				"Color Concept",
@@ -19,8 +18,8 @@
 			"name": "Web Design / Development",
 			"description": "From Intent to Content to Sitemaps to Wireframes to Clickdummies to Designs to Production, all in close collaboraion with you.",
 			"tags": [
-				"User Interfaces Design",
-				"Front-end Development",
+				"Web Design",
+				"UI Design",
 				"Responsive Development",
 				"Design Systems",
 				"WordPress"
