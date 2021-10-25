@@ -1,0 +1,36 @@
+---
+layout: 'base.njk'
+---
+<article class="main-article min-h-full mt-8 md:mt-36">
+<div class="px-5 ">
+  <h1 class="article-title font-bold text-5xl">
+    {{ title }}
+  </h1>
+  <div class="mt-4">
+    <div class="flex">
+      <span class="w-10">tasks</span>
+      <span class="pl-2 uppercase font-bold">{{ tasks | join(', ') }}</span>
+    </div>
+    <div class="flex">
+      <span class="w-10">client</span>
+      <span class="pl-2 font-bold">{{ clientName }}</span>
+    </div>
+    {% if projectUrl %}
+    <div class="flex">
+      <span class="w-10">visit</span>
+      <a class="pl-2 text-purple-700 hover:underline font-bold" href="{{ projectUrl }}" target="_blank" rel="noreferrer" >Project Website</a>
+    </div>
+    {% endif %}
+
+  </div>
+  <div class="description mt-8 prose dark:prose-dark">
+    {{ description | safe }}
+  </div>
+  <div class="mx-auto content my-8 prose dark:prose-dark max-w-screen-lg">
+    {{ content | safe }}
+  </div>
+  <div class="mx-auto w-full flex justify-center my-12">
+    <a class="bg-purple-600 hover:bg-purple-800 text-white text-xl px-8 py-2 rounded-full " href="/work">more projects</a>
+  </div>
+</div>
+</article>

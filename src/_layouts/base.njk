@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="{{ metaTitle | safe }} — {{ metaDescription | safe }}">
+      <meta name="description" content="{{ metaDescription | safe }}">
+      <meta name="robots" content="follow, index" />
+      <title>{{ title }}</title>
+      <!-- <link rel="stylesheet" href="https://use.typekit.net/jmc0wpu.css"> -->
+      <link rel="stylesheet" href="./styles.css">
+      <link rel="stylesheet" href="{{ '/styles.css' | url }}" rel="preload" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+      <noscript>
+        <link href="{{ '/styles.css' | url }}" rel="stylesheet" type="text/css" />
+      </noscript>
+      <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+  <body class="min-h-screen" 
+      x-data="{'darkMode': false}"
+      x-init="
+        darkMode = JSON.parse(localStorage.getItem('darkMode'));
+        $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+  >
+    <div :class="{'dark': darkMode == true}">
+      <div class="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-50">
+        
+        {% block header %}
+        {% include "../_components/_header.njk" %}
+        {% endblock %}   
+        
+        {% if page.url==='/'%}
+        {% block hero %}
+        {% include '../_components/_hero.njk' %}
+        {% endblock hero %}
+        {% endif %}
+        
+        <div id="content" role="main" class="max-w-screen-2xl lg:mx-auto">
+          {{ content | safe }}
+        </div>
+        
+        
+        {% block footer %}
+        {% include "../_components/_footer.njk" %}
+        {% endblock %}
+        
+      </div>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+{
+	"services": [
+		{
+			"name": "Services",
+			"description": ""
+		},
+		{
+			"name": "Branding & Identity",
+			"description": "Together, we define your brands core values and dress your communication accordingly",
+			"tags": [
+				"Visual Language",
+				"Logo Design", 
+				"Brand Typography", 
+				"Color Concept",
+				"Design Manuals" 
+			]
+		},
+		{
+			"name": "Web Design / Development",
+			"description": "From Intent to Content to Sitemaps to Wireframes to Clickdummies to Designs to Production, all in close collaboraion with you.",
+			"tags": [
+				"User Interfaces Design",
+				"Front-end Development",
+				"Responsive Development",
+				"Design Systems",
+				"WordPress"
+			]
+		},
+		{
+			"name": "Content Creation",
+			"description": "I offer the production of visual content.",
+			"tags": [
+				"Icons",
+				"Illustration",
+				"Animation"
+			]
+		}
+	],
+	"featuredWorkTitle": "Featured Work",
+	"featuredWorkDescription": "Here are some of my favourite projects:",
+	"browseFullPortfolio": "Browse full portfolio",
+	"processTools": "Learn about my process and tools",
+	"footerCreditLine1": "2021 © Malte Euler.",
+	"footerCreditLine2": "This site was designed in ",
+	"builtTools": {
+		"figma": "https://www.figma.com/",
+		"11ty": "https://www.11ty.dev/",
+		"tailwindcss": "https://tailwindcss.com/",
+		"deployed via Netlify": "https://www.netlify.com/"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Malte Euler",
+	"description": "Freelance Designer, based in Munich",
+	"url": "https://malteeuler.com/",
+	"author": {
+		"name": "Malte Euler",
+		"email": "malte.euler@gmail.com",
+		"url": "https://malteeuler.com/",
+		"avatar": "./assets/media/malte.jpg",
+		"mailtolink": "mailto:malte.euler@gmail.com?subject=Request from malteeuler.com&body=Hi! Please include some information about the project, you would like me to work on."
+	},
+	"socials": {
+		"dribbble": "https://dribbble.com/malto",
+		"linkedin": "https://www.linkedin.com/in/malteeuler/",
+		"github": "https://github.com/malto"
+	}
+}

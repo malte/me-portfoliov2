@@ -1,0 +1,5 @@
+{
+    "layout": "singlework.njk",
+    "templateEngineOverride": "njk,md",
+    "tags": ["work"]
+}

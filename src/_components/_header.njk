@@ -1,0 +1,36 @@
+<header class="max-w-screen-2xl lg:mx-auto">
+  <div class="text-purple-700 px-5 flex w-full justify-between py-4">
+    <a href="/" class="text-purple-700 hover:underline
+        {% if entry.url == page.url %} underline {% else %} {% endif %}">
+        {{ metadata.name }} - {{ metadata.description }}
+    </a>
+    <nav class="flex-shrink-0">
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul class="text-right flex flex-col lg:flex-row">
+        {%- for entry in navPages %}
+        <li class="inline-block mr-5">
+          <a href="{{ entry.url | url }}"
+            class="transition-colors  hover:underline text-purple-700
+                  {% if entry.url == page.url %} underline {% else %} {% endif %}">{{ entry.title }}</a>
+        </li>
+        {%- endfor %}
+
+        <li class="switch">
+              <!-- Toggle switch begins -->
+              <div class="flex justify-end items-center space-x-2">
+                <span class="text-sm text-gray-800 dark:text-gray-500">Light</span>
+                <label for="toggle"
+                  class="w-9 h-5 flex items-center bg-gray-300 rounded-full p-1 cursor-pointer duration-300 ease-in-out dark:bg-gray-600">
+                  <div
+                    class="toggle-dot bg-white w-4 h-4 rounded-full shadow-md transform duration-300 ease-in-out dark:translate-x-3">
+                  </div>
+                </label>
+                <span class="text-sm text-gray-400 dark:text-white">Dark</span>
+                <input id="toggle" type="checkbox" class="hidden" :value="darkMode" @change="darkMode = !darkMode" />
+              </div>
+              <!-- Toggle switch ends -->
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

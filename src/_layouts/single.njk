@@ -1,0 +1,16 @@
+---
+layout: 'base.njk'
+---
+<article class="main-article min-h-full mt-8 md:mt-36">
+<div class="px-5 ">
+  <h1 class="article-title font-bold text-5xl">
+    {{ title }}
+  </h1>
+  <div class="description mt-8 prose dark:prose-dark">
+    {{ description | safe }}
+  </div>
+  <div class="mx-auto content my-8 max-w-screen-lg prose dark:prose-dark ">
+    {{ content | safe }}
+  </div>
+</div>
+</article>
