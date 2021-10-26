@@ -15,9 +15,9 @@ year: 2020
 date: 2020-10-05
 ---
 
+{% simplFigure 'utopolis_screen_2.png', 'Screenshot Utopolis Landing', 'Screenshot Utopolis Landing', 'img-screen' %}
 This was a freelance job for anschlaege.de in Berlin. They asked for a component-based UI-Design for this website as an example. The idea was so other projects from Bundesverband Soziokultur e.V. could adopt it for different projects and just exchange colors and fonts for branding.
 
-{% simplFigure 'utopolis_screen_2.png', 'Screenshot Utopolis Landing', 'Screenshot Utopolis Landing', 'img-screen' %}
 {% simplFigure 'utopolis_screen_3.png', 'Screenshot Utopolis Toolbox', 'Screenshot Utopolis Toolbox', 'img-screen' %}
 {% simplFigure 'utopolis_screen_4.png', 'Screenshot Utopolis Toolbox Filter', 'Screenshot Utopolis Toolbox Filter', 'img-screen' %}
 {% simplFigure 'utopolis_screen_1.png', 'Screenshot Utopolis Blog', 'Screenshot Utopolis Blog', 'img-screen' %}

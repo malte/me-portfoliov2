@@ -14,6 +14,7 @@ tasks: ["Brand Design", "Illustration" , "Web Design"]
 year: 2018
 date: 2018-10-07
 ---
+{% simplFigure 'helpap_motiv.jpg', 'The egyptian plover and the crocodile', 'The egyptian plover and the crocodile' %}
 
 ## Branding Goals
 The Dentist Christian Helpap asked for fresh approach to brand his business.
@@ -23,11 +24,8 @@ The egyptian plover (bird) and the crocodile (reptile) have a legendary partners
 The illustration is combined with a clean, humanist grotesk font. The website is an easy-to-use onepager with prominent telephone-number and email contact fixed at the bottom of the screen.
 
 ## Print
-
-{% simplFigure 'helpap_motiv.jpg', 'The egyptian plover and the crocodile', 'The egyptian plover and the crocodile' %}
 {% simplFigure 'helpap_flyer.jpg', 'Flyer for Dentist Christian Helpap', 'Flyer for Dentist Christian Helpap' %}
 
 ## Screen
-
 {% simplFigure 'helpap_web03.png', 'Homepage Christian Helpap', 'Homepage Christian Helpap', 'img-screen' %}
 {% simplFigure 'helpap_web02.png', 'Homepage Christian Helpap', 'Homepage Christian Helpap', 'img-screen' %}

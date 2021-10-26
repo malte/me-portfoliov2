@@ -14,11 +14,11 @@ tasks: ["Logo Design", "Web Design", "Web Development"]
 year: 2021
 date: 2021-10-04
 ---
+{% simplFigure 'SFDP-featured.png', 'SFDP Logo', 'SFDP Logo', '' %}
 
 ## Branding Goals
 The brand was to incorporate an african flair without being clichee, since this is a 'white' company from europe, that not really has a say in what is african. So we just decided on a very bright and colorful design, utilizing strong colors, that you my find printed on a lot of fabrics in kenya. The motive of the logo is the silhoutte of a bird, that you may find in both continents, since it is a wanderer, the common swift, also symbolising the exchange.
 
-{% simplFigure 'SFDP-featured.png', 'SFDP Logo', 'SFDP Logo', '' %}
 {% simplFigure 'SFDP_compcard.jpg', 'SFDP Compliment Card', 'SFDP Compliment Card', '' %}
 
 ## Website

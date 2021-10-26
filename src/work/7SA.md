@@ -14,18 +14,22 @@ tasks: ["Brand Design","Illustration","Web Design","Web Development"]
 year: 2017
 date: 2017-10-01
 ---
+{% simplFigure '7sa_bc.jpg', 'Business Card 7SA', 'Business Card 7SA' %}
 
 ## Branding Goals & Solution
 Seven Summits Arbitration were looking for a classic look, when they were starting out with their own firm. Although being relativly young, they wanted the long years of experience they nevertheless had, show on first sight. So we choose the font 'Noe Text', a sharp antiqua with a modern edge, and carefully selected a warm shade of blue 'himmiblau', that freshens the classic look.
 
+{% simplFigure '7sa_compcard.jpg', 'Compliment Card 7SA', 'Compliment Card 7SA' %}
+
 ## Print
 All Printmatter for 7SA sports 'himmiblau', bavarian for sky-blue, a blue Pantone Color, which allows for a much more saturated color than process print colors, especialy when it comes to blue.
 
-{% simplFigure '7sa_bc.jpg', 'Business Card 7SA', 'Business Card 7SA' %}
-{% simplFigure '7sa_compcard.jpg', 'Compliment Card 7SA', 'Compliment Card 7SA' %}
+{% simplFigure '7SA_Karten.jpg', 'End of Year Card 7SA', 'End of Year Card 7SA' %}
 
-## Screen
+
+## Website
 The Website was created with a custom Wordpress theme.
+
 {% simplFigure '7sa_who-we-are.jpg', '7SA - Who we are, Landingpage', 'Website 7SA: Who we are, Landingpage', 'img-screen' %}
 {% simplFigure '7sa_what-we-do.jpg', ' 7SA - What we do, Methods and Fields', '7SA - What we do, Methods and Fields', 'img-screen' %}
 {% simplFigure '7sa_what-you-get.jpg', '7SA - What you get, Values', '7SA - What you get, Values', 'img-screen' %}
