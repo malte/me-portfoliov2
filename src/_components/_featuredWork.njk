@@ -1,9 +1,9 @@
 <section id="work" class="pb-24 md:pb-36">
   <div class="px-5 max-w-screen-2xl lg:mx-auto">
-    <div class="py-10 grid grid-cols-1 md:grid-cols-3 md:grid-flow-row-dense md:gap-8">
+    <div class="py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-flow-row-dense sm:gap-8">
 
       <div class="md:col-span-3">
-        <h3 class="block text-3xl font-bold mb-10 md:w-2/3">
+        <h3 class="text-3xl dark:tracking-wider block font-bold md:w-2/3">
         {{ data.featuredWorkDescription }}
         </h3>
       </div>
@@ -21,8 +21,8 @@
               </picture>
             <header class="py-2 md:py-4">
               <p class="text-gray-500 uppercase text-sm tracking-wide font-normal dark:text-gray-300">{{ item.data.tasks | join(", ") }} ({{ item.data.year }})</p>
-              <h4 class="text-2xl font-bold block dark:tracking-wide">{{ item.data.title }}</h4>
-              <p class="text-gray-900 text-base font-normal dark:text-white">{{ item.data.description }}</p>
+              <h4 class="font-bold block dark:tracking-wider mt-2">{{ item.data.title }}</h4>
+              <p class="text-gray-900 text-base font-normal dark:text-gray-300">{{ item.data.description }}</p>
             </header>
             </article>
           </a>

@@ -1,6 +1,6 @@
 <!-- services -->
 <section id="services" class="pb-12">
-<div class="max-w-screen-xl m-auto px-5">
+<div class="max-w-screen-xl m-auto px-5 cms-content">
   <div class="grid gap-4 grid-cols-1 md:grid-cols-3 ">
     {% for item in data.services %}
       {% if item.name === 'Services' %}
@@ -19,7 +19,7 @@
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </div>  
         {% endif %}
       {% endfor %}
     </div>

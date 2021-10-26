@@ -3,12 +3,14 @@ layout: 'base.njk'
 title: work
 ---
 
-<div class="px-5 mt-8 md:mt-36 ">
-  <h1 class="article-title  font-bold text-5xl">
-    {{ title }}
+<div class="px-5 mt-8 mb-12">
+  <h1 class="text-center font-bold text-5xl">
+      {{ title }}
   </h1>
   <p>{{ description }}</p>
   {% block workGrid %}
     {% include '../_components/_workGrid.njk' %}
   {% endblock workGrid %}
+
+  <p>{{ content | safe}}</p>
 </div>

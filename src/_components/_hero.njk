@@ -1,11 +1,10 @@
 <!-- hero -->
-<section id="hero" class="pt-8">
-  <div class=" grid grid-cols-3 px-5 items-center max-w-screen-2xl lg:mx-auto min-h-[40vh]">
+<section id="hero" class="pt-8 relative">
+  <div class="isolate grid grid-cols-3 px-5 items-center max-w-screen-2xl lg:mx-auto min-h-[30vh] z-20">
       {# this is for homepage #}
-      <div class="col-span-3  ">
+      <div class="col-span-3">
         <div class="">
-          <h2 class="text-4xl md:text-6xl leading-[1.1em] font-bold">{{ catchphrase | safe }} </h2>
-          <p class="mt-4 text-gray-800 dark:text-gray-300"> {{ description | safe }}</p>
+          <h1 class="text-4xl md:text-6xl leading-[1.2em] font-bold text-center">{{ catchphrase | safe }} </h1>
         </div>
       </div>
   </div>

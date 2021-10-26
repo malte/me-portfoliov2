@@ -1,14 +1,14 @@
 <header class="max-w-screen-2xl lg:mx-auto">
-  <div class="text-purple-700 px-5 flex w-full justify-between py-4 dark:text-purple-500">
-    <a href="/" class="text-purple-700  dark:text-purple-500 hover:underline
+  <div class="text-purple-700 px-5 flex flex-col md:flex-row md:items-center w-full justify-between py-4 dark:text-purple-500">
+    <a href="/" class="text-purple-700  dark:text-purple-500 hover:underline text-center md:text-right
         {% if entry.url == page.url %} underline {% else %} {% endif %}">
         {{ metadata.name }} - {{ metadata.description }}
     </a>
-    <nav class="flex-shrink-0">
+    <nav class="flex-shrink-0 mt-8 md:mt-0">
       {% set navPages = collections.all | eleventyNavigation %}
-      <ul class="text-right flex flex-col lg:flex-row">
+      <ul class="text-right flex flex-col md:flex-row items-center">
         {%- for entry in navPages %}
-        <li class="inline-block mr-5">
+        <li class="inline-block md:mr-5">
           <a href="{{ entry.url | url }}"
             class="transition-colors  hover:underline text-purple-700 dark:text-purple-500
                   {% if entry.url == page.url %} underline {% else %} {% endif %}">{{ entry.title }}</a>
