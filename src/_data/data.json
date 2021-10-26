@@ -2,11 +2,11 @@
 	"services": [
 		{
 			"name": "Services",
-			"description": ""
+			"description": "From Concept, Content and Corporate Design to Print and Web Production, i help your Brand to reach its Audience in Style. For photography and other related services, i can rely on a network of professionals."
 		},
 		{
 			"name": "Branding & Identity",
-			"description": "Together, we define your brands core values and dress your communication accordingly",
+			"description": "",
 			"tags": [
 				"Logo Design", 
 				"Brand Typography", 
@@ -16,10 +16,9 @@
 		},
 		{
 			"name": "Web Design / Development",
-			"description": "From Intent to Content to Sitemaps to Wireframes to Clickdummies to Designs to Production, all in close collaboraion with you.",
+			"description": "",
 			"tags": [
-				"Web Design",
-				"UI Design",
+				"UI & Web Design",
 				"Responsive Development",
 				"Design Systems",
 				"WordPress"
@@ -27,7 +26,7 @@
 		},
 		{
 			"name": "Content Creation",
-			"description": "I offer the production of visual content.",
+			"description": "",
 			"tags": [
 				"Icons",
 				"Illustration",
@@ -36,7 +35,7 @@
 		}
 	],
 	"featuredWorkTitle": "Featured Work",
-	"featuredWorkDescription": "Here are some of my favourite projects:",
+	"featuredWorkDescription": "Some of my favourite projects:",
 	"browseFullPortfolio": "Browse full portfolio",
 	"processTools": "Learn about my process and tools",
 	"footerCreditLine1": "2021 © Malte Euler.",
