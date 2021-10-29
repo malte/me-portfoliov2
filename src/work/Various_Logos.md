@@ -16,7 +16,7 @@ date: 2020-10-08
 ---
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-8 black-logos">
 {% simplFigure 'logos/logo_Fuchstreff.png', 'Fuchstreff - Doppelkopf Community', 'Fuchstreff - Doppelkopf Community' %}
 {% simplFigure 'logos/logo_Werner_Urban.png', 'Werner Urban - Sound & Music', 'Werner Urban - Sound & Music' %}
 {% simplFigure 'logos/logo_ET.png', 'ET Elastomer Technik', 'ET Elastomer Technik' %}

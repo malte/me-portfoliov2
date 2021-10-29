@@ -690,6 +690,10 @@ video {
 	--tw-text-opacity: 1;
 	color: rgba(139, 92, 246, var(--tw-text-opacity));
 }
+    .dark .black-logos img {
+        filter: invert(100%);
+        opacity: .8;
+    }
 .img-screen {
 	border-radius: 0.75rem;
 	border-width: 2px;
