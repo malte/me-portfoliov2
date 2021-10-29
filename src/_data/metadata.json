@@ -10,8 +10,8 @@
 		"mailtolink": "mailto:malte.euler@gmail.com?subject=Request via malteeuler.com&body=Hi, thanks for reaching out! Please include some information about the project, you would like me to work on."
 	},
 	"connect": {
-		"mail.svg": "mailto:malte.euler@gmail.com?subject=Request via malteeuler.com&body=Hi, thanks for reaching out! Please include some information about the project, you would like me to work on.",
-		"linkedin.svg": "https://www.linkedin.com/in/malteeuler/",
-		"instagram.svg": "https://www.instagram.com/malto_illu/"
+		"mail": "mailto:malte.euler@gmail.com?subject=Request via malteeuler.com&body=Hi, thanks for reaching out! Please include some information about the project, you would like me to work on.",
+		"linkedin": "https://www.linkedin.com/in/malteeuler/",
+		"instagram": "https://www.instagram.com/malto_illu/"
 	}
 }
