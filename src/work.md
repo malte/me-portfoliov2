@@ -9,4 +9,3 @@ eleventyNavigation:
   key: work
   order: 1
 ---
- body text

@@ -39,6 +39,7 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/typography": "^0.4.1",
+    "eleventy-plugin-svg-contents": "^0.7.0",
     "eleventy-plugin-vimeo-embed": "^1.3.2"
   }
 }
