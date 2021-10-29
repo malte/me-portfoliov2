@@ -1,5 +1,7 @@
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-          <defs><style>.a {stroke-width: 10px;}</style></defs>
-          <rect stroke="currentColor" fill="none" target="_blank" class="a" x="33.54" y="50.72" width="132.93" height="99.69" />
-          <polyline stroke="currentColor" fill="none" class="a" points="166.5 50.72 100 117.22 33.5 50.72" />
-        </svg>
+<svg version="1.1" viewBox="0 0 200 200">
+<style type="text/css">
+	.st0{fill:none;stroke-width:15;}
+</style>
+<rect stroke="currentColor" x="7.1" y="30.9" class="st0" width="185.9" height="139.4"/>
+<polyline stroke="currentColor" class="st0" points="193,30.9 100,123.9 7,30.9 "/>
+</svg>
