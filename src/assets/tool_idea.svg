@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class=" text-purple-600 dark:text-purple-500">
+<defs><style>.idea{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px;}</style></defs>
+<path class="idea" d="M110.5,158.5c-.35.36-27,13-27,13l11,6c.39,0,11-5,15-7"/>
+<line class="idea" x1="82.25" y1="160.75" x2="112.25" y2="147.75"/>
+<path class="idea" d="M82.86,151.39l29-13S109.5,103.5,119.5,75.5C115.5,80.5,104,96,104,96s-5.5-33.5-5.5-31.5S92,100,92,100,80.12,75.54,80.5,77.5c7,36,5,62,5,62"/>
+<path class="idea" d="M107.53,135.4c25.55-5.12,29.87-34.64,26.16-56.88-10.4-62.26-54.66-59-72.18-.13C53.25,106.16,75.83,142,107.53,135.4Z"/></svg>

@@ -3,8 +3,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require('markdown-it');
 const markdownitlinkatt = require('markdown-it-link-attributes');
 const markdownItAnchor = require('markdown-it-anchor')
-
 const embedVimeo = require("eleventy-plugin-vimeo-embed");
+
 
 
 module.exports = function(eleventyConfig) {
@@ -67,6 +67,16 @@ eleventyConfig.addShortcode('respimg', (path, alt, style) => {
 			caption ? caption : ''
 		}</figcaption></figure>`
 	})
+	const fs = require('fs');  
+	eleventyConfig.addShortcode('inlineSvg', (file) => {
+		let relativeFilePath = `./src/assets/${file}`;
+		let data = fs.readFileSync(relativeFilePath, function(err, contents) {  
+    		if (err) return err  
+    		return contents  
+  		});
+		return data.toString('utf8')  
+	})
+
 
 	// https://github.com/eeeps/eleventy-respimg
 	eleventyConfig.cloudinaryCloudName = 'dcfqybotp'
