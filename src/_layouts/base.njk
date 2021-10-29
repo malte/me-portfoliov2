@@ -24,7 +24,7 @@
         darkMode = JSON.parse(localStorage.getItem('darkMode'));
         $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
   >
-    <div class="dark" :class="{'dark': darkMode == true}">
+    <div class="" :class="{'dark': darkMode == true}">
       <div class="bg-gray-100 text-gray-900 dark:bg-gray-800 dark:text-gray-50 font-darkmodeOff dark:font-darkmodeOn transition-colors">
         
         {% block header %}
