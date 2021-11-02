@@ -6,8 +6,7 @@
           <a
           href="{{item.url}}"
           title="view {{item.data.title}}"
-          class="work-thumbnail flex flex-col justify-between post relative md:transform md:hover:-translate-y-2 md:transition-transform">
-            <article>
+          class="work-thumbnail flex flex-col justify-between post relative md:hover:-translate-y-2 md:transition-transform">
               <div  class="block w-full">
                 {% if item.data.featuredImg %}
                 <img class="rounded-sm" src="../assets/media/{{item.data.featuredImg}}"  alt="Example Image for {{item.data.title}}" >
@@ -22,7 +21,6 @@
                 {{ item.data.tasks | join(", ") }}
               </p>
             </header>
-            </article>
           </a>
       {% endfor %}
 

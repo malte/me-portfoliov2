@@ -1,15 +1,8 @@
 <!-- hero -->
-<section id="hero" class="pt-8 relative">
-  <div class="isolate grid grid-cols-3 px-5 items-center max-w-screen-2xl lg:mx-auto min-h-[30vh] z-20">
+<section id="hero" class="">
+  <div class="px-5 items-center max-w-screen-2xl lg:mx-auto min-h-[30vh]">
       {# this is for homepage #}
-      <div class="col-span-3">
-        <div class="flex flex-col items-center">
-          <div class="text-purple-600 dark:text-purple-500 w-24 mb-8">
-            {% inlineSvg 'hearteye.svg' %}
-          </div>        
-          <h1 class="text-4xl md:text-6xl leading-[1.2em] font-bold text-center">{{ catchphrase | safe }} </h1>
-        </div>
-      </div>
+    <h1 class="text-4xl md:text-6xl leading-[1.2em] font-bold text-center">{{ catchphrase | safe }} </h1>
   </div>
 </section>
 <!-- hero end -->

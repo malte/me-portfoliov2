@@ -1,0 +1,39 @@
+<!-- process tabs -->
+<section  class="pt-8">
+<div class="max-w-screen-lg mx-auto rounded-lg" x-data="{ tab: 'tab1' }">
+
+  <ul class="grid  grid-cols-1 md:grid-cols-3 border border-black">
+    {% for item in data.process %}
+    <li class="border border-black">
+      <a href="#" @click.prevent="tab = 'tab{{loop.index}}' ">
+        <h3 class="h-full px-4 pt-2 pb-1 text-2xl" :class="{ 'bg-black text-white' : tab === 'tab{{loop.index}}' }">
+          {{loop.index}}. {{ item.name }}
+        </h3>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div>
+    {% for item in data.process %}
+      <div class="border-r-2 border-l-2 border-b-2 border-black p-4 text-center" x-show="tab === 'tab{{loop.index}}'">
+            {% if item.illu %}
+            <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
+              {% inlineSvg item.illu %}
+            </div>
+            {% endif %}
+       <p>
+         {{ item.description }}
+       </p>
+       {% if loop.revindex0 != 0 %}
+       <button>
+         <a href="#" @click.prevent="tab = 'tab{{loop.index+1 }}' " class="btn">
+           next step
+         </a>
+       </button>
+       {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+</section>
+<!-- process tabs end -->

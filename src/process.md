@@ -18,10 +18,10 @@ eleventyNavigation:
     </div>
   
 ### I. Planning
-In the beginning i get to know you and your product/brand/idea.
+In the beginning I get to know you and your product/brand/idea.
 - What do you want to communicate?
-- to whom?
-- and how should it feel like?
+- To whom?
+- And how should it feel like?
   
 In this stage, we define goals and mission success. We create a list of deliverables and a set milestones. 
 
@@ -52,7 +52,7 @@ I knead in the changes. Two rounds are usually sufficiant.
 ### III. Production
 Once the presentation is cleared for production, all deliverables are being produced.
    
-Below is a list of a couple of tools and technologies, that i like to use.
+Below is a list of a couple of tools and technologies, that I like to use.
 
   </div>
 </div>
@@ -63,7 +63,7 @@ Below is a list of a couple of tools and technologies, that i like to use.
 ## Tools & Technologies
 
 ### Web
-Usually i recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small costs in time and money.
+Usually I recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small costs in time and money.
 
 - [Adobe XD](https://www.adobe.com/de/products/xd.html)  - for UI Design, for Wireframing, Design and Prototyping
 - [Wordpress](https://www.wordpress.org) with [Timber](https://upstatement.com/timber/) - for CMS and Theme development
