@@ -21,10 +21,4 @@ The brand was to incorporate an african flair without being clichee, since this 
 
 {% simplFigure 'SFDP_compcard.jpg', 'SFDP Compliment Card', 'SFDP Compliment Card', '' %}
 
-## Website
-
-{% simplFigure 'SFDP_screen_01.jpg', 'Screenshot SFDP Landing', 'Screenshot SFDP Landing', 'img-screen' %}
-{% simplFigure 'SFDP_screen_02.jpg', 'Screenshot SFDP Learning', 'Screenshot SFDP Learning', 'img-screen' %}
-{% simplFigure 'SFDP_screen_03.jpg', 'Screenshot SFDP Making', 'Screenshot SFDP Making', 'img-screen' %}
-{% simplFigure 'SFDP_screen_04.jpg', 'Screenshot SFDP Talking', 'Screenshot SFDP Talking', 'img-screen' %}
-{% simplFigure 'SFDP_screen_05.jpg', 'Screenshot SFDP Making Destail', 'Screenshot SFDP Making Detail', 'img-screen' %}
+{% simplFigure 'SFDP_Documentation_web.jpg', 'SFDP Website Responsive', 'SFDP Website Responsive', '' %}
