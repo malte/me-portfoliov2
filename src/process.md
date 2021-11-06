@@ -9,10 +9,12 @@ eleventyNavigation:
   key: process and tools
   order: 2
 ---
-## Process
+### Process
 
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- step 1 -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 py-24 md:py-36">
   <div id="idea">
+    <span class="text-purple-700 text-3xl italic block text-center">Ignition!</span>
     <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
       {% inlineSvg 'tool_idea.svg' %}
     </div>
@@ -26,11 +28,12 @@ In the beginning I get to know you and your product/brand/idea.
 In this stage, we define goals and mission success. We create a list of deliverables and a set milestones. 
 
   </div>
+<!-- step 2 -->
   <div id="crack">
+    <span class="text-purple-700 text-3xl italic block text-center">Crack The Egg!</span>
     <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
       {% inlineSvg 'tool_crack.svg' %}
     </div>
-
 
 ### II. Creation
 The creative work includes many trial & errors. The drafts, that pass the test are then delivered in a first presentation.
@@ -40,14 +43,16 @@ Now it is time for feedback:
 - We love the colors!
 - Can you make the logo bigger? ;)
 
-I knead in the changes. Two rounds are usually sufficiant.
-
+I knead in the changes. You can have as many rounds as you want. The first two rounds are included in the offer.
 
   </div>
+<!-- step 3 -->
   <div id="sunny">
+    <span class="text-purple-700 text-3xl italic block text-center">Sunny Side Up!</span>
     <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
       {% inlineSvg 'tool_sunny.svg' %}
     </div>
+
 
 ### III. Production
 Once the presentation is cleared for production, all deliverables are being produced.

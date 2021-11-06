@@ -13,8 +13,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'darkmodeOn': ['darkmode-on', "Helvetica Neue", "Noto Sans", 'sans-serif'],
-      'darkmodeOff': ['darkmode-off', "Helvetica Neue", "Noto Sans", 'sans-serif']
+      'effra': ['effra', "Helvetica Neue", "Noto Sans", 'sans-serif'],
     },
   },
   variants: {

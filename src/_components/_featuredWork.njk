@@ -3,7 +3,7 @@
     <div class="py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-flow-row-dense sm:gap-8">
 
       <div class="md:col-span-3">
-        <h2 class="text-2xl dark:tracking-wider block font-bold md:w-2/3">
+        <h2 class="text-2xl dark:tracking-wider block md:w-2/3">
         {{ data.featuredWorkDescription }}
         </h2>
       </div>
@@ -20,7 +20,7 @@
               </picture>
             <header class="py-2 md:py-4">
               <p class="text-gray-500 uppercase text-sm tracking-wide font-normal dark:text-gray-300">{{ item.data.tasks | join(", ") }}</p>
-              <h4 class="font-bold block dark:tracking-wider mt-2">{{ item.data.title }}</h4>
+              <h4 class="block dark:tracking-wider mt-2">{{ item.data.title }}</h4>
               <p class="text-gray-900 text-base font-normal dark:text-gray-300">{{ item.data.description }}</p>
             </header>
           </a>

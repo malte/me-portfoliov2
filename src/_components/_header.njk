@@ -1,7 +1,7 @@
 <header class="lg:mx-auto fixed z-20 w-full flex justify-between items-center px-4 md:px-12 border-b border-gray-500 transition-all duration-200 bg-gray-100 text-purple-700"
             :class="{'h-36': !scrolledFromTop, 'h-14 border-b border-gray-200 shadow-sm': scrolledFromTop}"
             >
-            <a href="/" class="text-purple-700  dark:text-purple-500 hover:underline md:flex-1
+            <a href="/" class="text-purple-700  dark:text-purple-500 hover:underline md:flex-1 uppercase
             {% if entry.url == page.url %} underline {% else %} {% endif %}">
             {{ metadata.name }}</br>{{ metadata.description }}
           </a>
@@ -27,7 +27,7 @@
         <li class="">
           <a @click="navOpen = false" 
             href="{{ entry.url | url }}"
-            class="transition-colors text-bold md:text-purple-700 dark:text-purple-500
+            class="transition-colors text-bold md:text-purple-700 uppercase
                   {% if entry.url == page.url %} underline {% else %} {% endif %}">{{ entry.title }}</a>
         </li>
         {%- endfor %}
