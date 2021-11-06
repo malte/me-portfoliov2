@@ -979,6 +979,10 @@ video {
 .p-4 {
 	padding: 1rem;
 }
+.py-24 {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
 .px-5 {
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
@@ -994,10 +998,6 @@ video {
 .px-4 {
 	padding-left: 1rem;
 	padding-right: 1rem;
-}
-.py-24 {
-	padding-top: 6rem;
-	padding-bottom: 6rem;
 }
 .pb-24 {
 	padding-bottom: 6rem;
@@ -1291,6 +1291,11 @@ video {
 		--tw-bg-opacity: 0;
 	}
 
+	.md\:py-36 {
+		padding-top: 9rem;
+		padding-bottom: 9rem;
+	}
+
 	.md\:py-4 {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -1309,11 +1314,6 @@ video {
 	.md\:py-0 {
 		padding-top: 0px;
 		padding-bottom: 0px;
-	}
-
-	.md\:py-36 {
-		padding-top: 9rem;
-		padding-bottom: 9rem;
 	}
 
 	.md\:pb-36 {
