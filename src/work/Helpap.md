@@ -8,6 +8,9 @@ clientName: Christian Helpap
 clientPos: 
 projectUrl: http://www.Zahnarzt-Helpap.de/
 featuredImg: Helpap-featured.png
+headerImg: helpap_full_small95.jpg
+altHeaderImg: Render of Christian Helpaps Postcard, Business Card and Website
+tagHeaderImg: Christian Helpaps Postcard, Business Card and Website
 bgColor: ffffff
 featured: false
 tasks: ["Brand Design", "Illustration" , "Web Design"]
@@ -23,9 +26,3 @@ The egyptian plover (bird) and the crocodile (reptile) have a legendary partners
 
 The illustration is combined with a clean, humanist grotesk font. The website is an easy-to-use onepager with prominent telephone-number and email contact fixed at the bottom of the screen.
 
-## Print
-{% simplFigure 'helpap_flyer.jpg', 'Flyer for Dentist Christian Helpap', 'Flyer for Dentist Christian Helpap' %}
-
-## Screen
-{% simplFigure 'helpap_web03.png', 'Homepage Christian Helpap', 'Homepage Christian Helpap', 'img-screen' %}
-{% simplFigure 'helpap_web02.png', 'Homepage Christian Helpap', 'Homepage Christian Helpap', 'img-screen' %}

@@ -15,12 +15,10 @@ year: 2021
 date: 2021-10-03
 ---
 
-{% simplFigure 'ROKARebrand.png', 'Before after Comparison of ROKA Rebrand', 'Before/After Logo Comparison of ROKA Rebranding' %}
 {% simplFigure 'ROKAConstruction.png', 'ROKA Logo and Construction Grid', 'ROKA Logo and Construction Grid' %}
 
 Roka<span class="superscript">3</span> becomes ROKA. Even though the numeration with the '3' was not longer accurate, the decision to change the name was not easy, bacause the software was already well known under the name Roka3. However, in the light of the plans to expand the software to a software family, it was decided.
 Most important USP is a very intuitive UI, while still beeing highly customisable. The new Logo communicates ease of use while portraing a cycle, symbol for the of networks that are being calculated. It is an abstract shape to enable the extension to a Logo System.
-
 
 
 {% simplFigure 'ROKAFamily.png', 'Logo System for ROKA, RIKA and CityCockpit', 'Logo System for ROKA, RIKA and CityCockpit' %}

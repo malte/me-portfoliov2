@@ -8,7 +8,7 @@ clientName: Various Clients
 clientPos: 
 projectUrl: 
 featuredImg:
-bgColor: ff3600
+bgColor: 7b1fa2
 featured: false
 tasks: ["Logo Design"]
 year: since 2009
