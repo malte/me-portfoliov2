@@ -9,7 +9,6 @@ eleventyNavigation:
   key: process and tools
   order: 2
 ---
-### Process
 
 <!-- step 1 -->
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 py-24 md:py-36">
@@ -65,7 +64,8 @@ Below is a list of a couple of tools and technologies, that I like to use.
 
 ---
 
-## Tools & Technologies
+ 
+<h1 class="text-3xl text-center">Technologies</h1>
 
 ### Web
 Usually I recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small costs in time and money.
@@ -74,6 +74,7 @@ Usually I recommend wordpress as plattform, because it offers easy ways to manag
 - [Wordpress](https://www.wordpress.org) with [Timber](https://upstatement.com/timber/) - for CMS and Theme development
 - [Tailwind Css](https://tailwindcss.com/) - for styling
 - [11ty Static site Generator](https://www.11ty.dev/) - When the Website does not need a full content managment system.
+- [react.js](https://reactjs.org/) - I also worked a little bit with react.js, beginner stage. here is a little playful project i made with react -> [trillion ghosts](http://trillionghosts.malteeuler.com)
 
 ### Illustration and Sketching
 Pen and paper is always the starting point. It has a intuitive connection to the mind, that digital tools just dont provide for me. Later in creation, and at the very least, in production, digital tools are welcome and necessary.
