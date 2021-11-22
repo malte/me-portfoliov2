@@ -12,7 +12,7 @@ bgColor: 7b1fa2
 featured: false
 tasks: ["Logo Design"]
 year: since 2009
-date: 2020-10-08
+date: 2010-05-01
 ---
 
 

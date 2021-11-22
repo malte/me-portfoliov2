@@ -15,7 +15,7 @@ bgColor: ffffff
 featured: false
 tasks: ["Brand Design", "Illustration" , "Web Design"]
 year: 2018
-date: 2018-10-07
+date: 2020-10-06
 ---
 {% simplFigure 'helpap_motiv.jpg', 'The egyptian plover and the crocodile', 'The egyptian plover and the crocodile' %}
 

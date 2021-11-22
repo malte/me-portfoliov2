@@ -11,8 +11,8 @@ featuredImg:
 bgColor: 7b1fa2
 featured: false
 tasks: ["Poster Design"]
-year: 2016
-date: 2016-10-04
+year: 2010
+date: 2010-06-01
 ---
 
 {% simplFigure 'KatiKati-1200.jpg', 'Movie Poster for Katikati', 'Movie Poster for Katikati', 'max-h-[80vh]' %}
