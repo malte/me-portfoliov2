@@ -13,13 +13,12 @@
           <a
           href="{{item.url}}"
           title="view {{item.data.title}}"
-          class="work-thumbnail flex flex-col justify-between md:hover:-translate-y-2 mt-8 md:mt-0 md:transition-transform">
+          class="work-thumbnail flex flex-col md:hover:-translate-y-2 mt-8 md:mt-0 md:transition-transform">
               <picture  class="block w-full">
-                <img class="rounded-sm" src="./assets/media/{{item.data.featuredImg}}"  alt="Example Image for {{item.data.title}}" >
+                <img style="background-color: '#{{ item.data.bgColor }}'" class="rounded-sm" src="./assets/media/{{item.data.featuredImg}}"  alt="Example Image for {{item.data.title}}" >
                 <!-- <div style="background-color: #{{ item.data.bgColor if item.data.bgColor else '222222' }}" class="h-24 md:h-48"></div> -->
               </picture>
             <header class="py-2 md:py-4">
-              <p class="text-gray-500 uppercase text-sm tracking-wide font-normal dark:text-gray-300">{{ item.data.tasks | join(", ") }}</p>
               <h4 class="block dark:tracking-wider mt-2">{{ item.data.title }}</h4>
               <p class="text-gray-900 text-base font-normal dark:text-gray-300">{{ item.data.description }}</p>
             </header>
