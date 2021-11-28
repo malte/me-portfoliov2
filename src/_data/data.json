@@ -74,7 +74,7 @@
 	"footerCreditLine1": "2021 © Malte Euler.",
 	"footerCreditLine2": "This site was designed in ",
 	"contactHeadline":"Get in touch!",
-	"contactCopy":"If you need a designer or have any questions about my work, or just want to say 'Hi!',</br>please don't hesitate to drop me a line.</br>(english/deutsch)",
+	"contactCopy": "If you need a designer or have any questions about my work, or just want to say ‘Hi!’,</br>please don’t hesitate to drop me a line.</br>(english/deutsch)",
 	"builtTools": {
 		"figma": "https://www.figma.com/",
 		"11ty": "https://www.11ty.dev/",

@@ -12,9 +12,14 @@ eleventyNavigation:
 
 {% simplFigure 'Malte-portrait_square.jpg', 'Malte Euler Portrait', '', 'rounded-full w-64 shadow-lg' %}
 
-I studied visual communication at Kunsthochschule Weißensee in Berlin from 2003-2009 and finished with Diplom in Communication Design.
+I am a mutlidiscplinary Designer and Illustrator.
+My studies included visual communication at Kunsthochschule Weißensee in Berlin (Diploma in Communication Design) and Illustration in Barcelona (Exchange Semester).
 
-Since then i worked mostly self-employed for a variety of clients over different kind of industries including film, music, culture, medical and technical companies and producers. My services included logo design and corporate design, as well as illustration and storyboarding/storytelling for commercials and feature films. Since 2015 i also work as a freelancer for various agencies like [anschlaege.de](https://www.anschlaege.de) in Berlin or [HOAX](https://hoax-amsterda.com) in Amsterdam. Around 2017 i started to offer web design and development (custom wordpress themes), as a result of my rising interest in the screen as a fluid, device-responsive format and because i like all things technical.
+I work for a variety of Clients from different industries including film, music, culture, medical and technical companies and producers.
+Besides logo design and corporate design my services include webdesign and development (mostly custom wordpress), illustration and storyboarding for commercials and feature films. I am also freelancing for various agencies like [anschlaege.de](https://www.anschlaege.de) in Berlin or [HOAX](https://hoax-amsterda.com) in Amsterdam.
+
+With a new assignment, I put in good effort in understanding the clients needs and the atmosphere they want to establish with their communication.
+Then i set to solve the problem in a clearly readable manner with a keen eye & technical precision, where needed i sprinkle humor and/or poetry. 
 
 ---
 
