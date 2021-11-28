@@ -18,8 +18,8 @@ My studies included visual communication at Kunsthochschule Weißensee in Berlin
 I work for a variety of Clients from different industries including film, music, culture, medical and technical companies and producers.
 Besides logo design and corporate design my services include webdesign and development (mostly custom wordpress), illustration and storyboarding for commercials and feature films. I am also freelancing for various agencies like [anschlaege.de](https://www.anschlaege.de) in Berlin or [HOAX](https://hoax-amsterda.com) in Amsterdam.
 
-With a new assignment, I put in good effort in understanding the clients needs and the atmosphere they want to establish with their communication.
-Then i set to solve the problem in a clearly readable manner with a keen eye & technical precision, where needed i sprinkle humor and/or poetry. 
+With a new assignment, I on understanding the clients needs and the atmosphere they want to establish with their communication.
+Then i set to solve the problem with a clear and precise solution. Where needed i sprinkle humor and/or poetry. 
 
 ---
 
