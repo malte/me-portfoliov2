@@ -22,7 +22,7 @@ Then i set to solve the problem with a clear solution. Where needed i sprinkle h
 
 ---
 
-[Download CV (german)](../assets/media/cv_me.pdf)
+[Download CV (german)](../assets/media/cv_me_de.pdf)
 [Download CV (english)](../assets/media/cv_me_en.pdf)
 
 ---
