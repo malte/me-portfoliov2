@@ -1,7 +1,7 @@
 <header class="lg:mx-auto fixed z-20 w-full border-b border-gray-500 transition-all duration-200 bg-gray-100 text-purple-700"
             :class="{'h-36': !scrolledFromTop, 'h-14 border-b border-gray-200 shadow-sm': scrolledFromTop}"
             >
-            <div class="mx-auto px-5 max-w-screen-2xl flex justify-between items-center" :class="{'h-36': !scrolledFromTop, 'h-14': scrolledFromTop}">
+            <div class="mx-auto px-5 2xl:px-0 max-w-screen-2xl flex justify-between items-center" :class="{'h-36': !scrolledFromTop, 'h-14': scrolledFromTop}">
 
               <a href="/" class="text-purple-700  dark:text-purple-500 hover:underline md:flex-1 uppercase
               {% if entry.url == page.url %} underline {% else %} {% endif %}">
