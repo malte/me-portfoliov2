@@ -61,7 +61,7 @@ eleventyConfig.addShortcode('respimg', (path, alt, style) => {
 
 	eleventyConfig.addShortcode('simplFigure', (path, alt, caption, style) => {
 		const basepath = '../../assets/media/';
-		return `<figure class=""><img class="${style}" loading="lazy" src="${basepath}${path}" alt="${
+		return `<figure class="flex flex-col"><img class="${style}" loading="lazy" src="${basepath}${path}" alt="${
 			alt ? alt : ''
 		}"><figcaption class="text-center text-sm mt-3 text-gray-600 dark:text-gray-200">${
 			caption ? caption : ''

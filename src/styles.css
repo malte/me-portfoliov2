@@ -1181,6 +1181,11 @@ video {
 		grid-column: span 3 / span 3;
 	}
 
+	.md\:mx-\[20vh\] {
+		margin-left: 20vh;
+		margin-right: 20vh;
+	}
+
 	.md\:mt-0 {
 		margin-top: 0px;
 	}
