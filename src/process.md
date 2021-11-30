@@ -19,7 +19,7 @@ eleventyNavigation:
     </div>
   
 ### I. Planning
-In the beginning I get to know you and your product/brand/idea.
+In the beginning i get to know you and your product/brand/idea.
 - What do you want to communicate?
 - To whom?
 - And how should it feel like?
@@ -56,7 +56,7 @@ I knead in the changes. You can have as many rounds as you want. The first two r
 ### III. Production
 Once the presentation is cleared for production, all deliverables are being produced.
    
-Below is a list of a couple of tools and technologies, that I like to use.
+Below is a list of a couple of tools and technologies, that i like to use.
 
   </div>
 </div>
@@ -68,16 +68,16 @@ Below is a list of a couple of tools and technologies, that I like to use.
 <h1 class="text-3xl text-center">Technologies</h1>
 
 ### Web
-Usually I recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small costs in time and money.
+Usually i recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small extra costs in time and money.
 
-- [Adobe XD](https://www.adobe.com/de/products/xd.html)  - for UI Design, for Wireframing, Design and Prototyping
-- [Wordpress](https://www.wordpress.org) with [Timber](https://upstatement.com/timber/) - for CMS and Theme development
+- [Adobe XD](https://www.adobe.com/de/products/xd.html)  - for UI Design, for wireframing, design and prototyping
+- [Wordpress](https://www.wordpress.org) with [Timber](https://upstatement.com/timber/) - for CMS and theme development
 - [Tailwind Css](https://tailwindcss.com/) - for styling
-- [11ty Static site Generator](https://www.11ty.dev/) - When the Website does not need a full content managment system.
-- [react.js](https://reactjs.org/) - I also worked a little bit with react.js, beginner stage. here is a little playful project i made with react -> [trillion ghosts](http://trillionghosts.malteeuler.com)
+- [11ty Static site Generator](https://www.11ty.dev/) - When the website does not need a full content managment system.
+- [react.js](https://reactjs.org/) -I also worked a little bit with react.js, beginner stage. here is a little playful project i made with react -> [trillion ghosts](http://trillionghosts.malteeuler.com)
 
 ### Illustration and Sketching
-Pen and paper is always the starting point. It has a intuitive connection to the mind, that digital tools just dont provide for me. Later in creation, and at the very least, in production, digital tools are welcome and necessary.
+Pen and paper are always the starting point. It has a intuitive connection to the mind, that digital tools just dont provide for me. Later in creation, and at the very least, in production, digital tools are welcome and necessary.
 
 - [Pro Create](https://procreate.art/) for Ipad - a very intuitive tool for sketching and thinking with a pen, second best only to actual pen and paper.
 - [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html/) 

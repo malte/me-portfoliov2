@@ -1,40 +1,8 @@
-{	"process": [
-		{
-			"name":"contact",
-			"description":"you get in contact with me",
-			"illu":"tool_idea.svg"
-		},
-		{
-			"name":"estimate",
-			"description":"i send you an cost estimate for the required work",
-			"illu":"tool_crack.svg"
-		},
-		{
-			"name":"creation",
-			"description":"Once the cost estimate is agreed upon, the creative work begins. It is a game of trial and error. The drafts, that pass the test are getting refined.",
-			"illu":"tool_crack.svg"
-		},
-		{
-			"name":"presentation",
-			"description":"a presentation is delivered that includes all branding items",
-			"illu":"tool_crack.svg"
-		},
-		{
-			"name":"correction round(s)",
-			"description":"the feedback phase",
-			"illu":"tool_sunny.svg"
-		},
-		{
-			"name":"production",
-			"description":"Once the presentation is cleared for production, all deliverables are being produced.",
-			"illu":"tool_sunny.svg"
-		}
-		
-	],
+{	
 	"services": [
 		{
 			"name": "Services",
-			"description": "From Corporate Design and Content to Print and Web Production, I help your Brand to reach its Audience."
+			"description": "From corporate design and content to print and web production, i help your brand to reach its audience."
 		},
 		{
 			"name": "Branding & Identity",
