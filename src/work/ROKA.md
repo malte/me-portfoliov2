@@ -9,7 +9,7 @@ clientPos:
 projectUrl: 
 featuredImg: ROKA-featured.png
 bgColor: 5e70e0
-featured: true
+featured: false
 tasks: ["Logo Design"]
 year: 2021
 date: 2021-10-03

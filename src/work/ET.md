@@ -12,7 +12,7 @@ headerImg: ET_BC-cards_small95.jpg
 altHeaderImg: Render of Elastomer Technik Business Cards
 tagHeaderImg: Elastomer Technik Business Cards Pattern
 bgColor: A82222
-featured: true
+featured: false
 tasks: ["Brand Design", "Web Design"]
 year: 2015
 date: 2015-10-02

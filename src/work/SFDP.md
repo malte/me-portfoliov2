@@ -12,7 +12,7 @@ headerImg: SFDP_all_small97.jpg
 altHeaderImg: Render of SFDP Postcard and Website
 tagHeaderImg: SFDP Postcard and Website
 bgColor: 1c1c7e
-featured: false
+featured: true
 tasks: ["Logo Design", "Web Design", "Web Development"]
 year: 2021
 date: 2021-10-04

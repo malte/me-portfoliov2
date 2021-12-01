@@ -12,7 +12,7 @@ altHeaderImg: Render of no Future Postcard and Website
 tagHeaderImg: no Future Postcard and Website
 featuredImg: NoFuture-featured.png
 bgColor: 50e2ff
-featured: false
+featured: true
 tasks: ["Illustration", "Web Design", "Web Development"]
 year: 2021
 date: 2021-10-06
