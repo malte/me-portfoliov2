@@ -15,7 +15,7 @@ eleventyNavigation:
 I am a mutlidiscplinary designer and illustrator with a diploma in communication design from Kunsthochschule Weißensee in Berlin.
 
 I work for a variety of clients from different industries including film, music, culture, medical and technical companies and producers.
-Besides logo design and corporate design my services include webdesign and development (mostly custom wordpress), illustration and storyboarding for commercials and feature films. I am also freelancing for various agencies like [anschlaege.de](https://www.anschlaege.de) in Berlin or [HOAX](https://hoax-amsterda.com) in Amsterdam.
+Besides logo design and corporate design my services include webdesign and development (mostly custom wordpress), illustration and storyboarding for commercials and feature films. I am also freelancing for various agencies like [anschlaege.de](https://www.anschlaege.de) in Berlin or [HOAX](https://hoax-amsterdam.com) in Amsterdam.
 
 With a new assignment, I focus on understanding the clients needs and the atmosphere they want to establish with their communication.
 Then i set to solve the problem to a clear solution. Where needed i sprinkle humor and/or poetry. 
