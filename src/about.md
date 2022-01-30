@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 3
 ---
 
-{% simplFigure 'Malte-portrait_square.jpg', 'Malte Euler Portrait', '', 'rounded-full w-64 shadow-lg' %}
+{% simplFigure 'Malte-0158_small.jpg', 'Malte Euler Portrait', '', 'w-64' %}
 
 I am a mutlidiscplinary designer and illustrator with a diploma in communication design from Kunsthochschule Weißensee in Berlin.
 
