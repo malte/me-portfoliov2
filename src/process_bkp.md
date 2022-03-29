@@ -1,20 +1,18 @@
 ---
 layout: 'single.njk'
 metaTitle: Portfolio
-metaDescription: Design process.
-title: Process and Tools
+metaDescription: Process and Toolset.
+title: Service and Tools
 description:
 templateEngineOverride: njk,md
-eleventyNavigation:
-  key: process and tools
-  order: 2
+
 ---
 
 <!-- step 1 -->
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 py-24 md:py-36">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
   <div id="idea">
-    <span class="text-purple-700 text-3xl italic block text-center">Ignition!</span>
-    <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
+    <span class="text-navi italic block text-center">Ignition!</span>
+    <div class="mx-auto mb-12 w-48 h-48 ">
       {% inlineSvg 'tool_idea.svg' %}
     </div>
   
@@ -29,8 +27,8 @@ In this stage, we define goals and mission success. We create a list of delivera
   </div>
 <!-- step 2 -->
   <div id="crack">
-    <span class="text-purple-700 text-3xl italic block text-center">Crack The Egg!</span>
-    <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
+    <span class="text-navi italic block text-center">Crack The Egg!</span>
+    <div class="mx-auto mb-12 w-48 h-48 ">
       {% inlineSvg 'tool_crack.svg' %}
     </div>
 
@@ -47,8 +45,8 @@ I knead in the changes. You can have as many rounds as you want. The first two r
   </div>
 <!-- step 3 -->
   <div id="sunny">
-    <span class="text-purple-700 text-3xl italic block text-center">Sunny Side Up!</span>
-    <div class="mx-auto mb-12 w-48 h-48 text-purple-600 dark:text-purple-500">
+    <span class="text-navi italic block text-center">Sunny Side Up!</span>
+    <div class="mx-auto mb-12 w-48 h-48 ">
       {% inlineSvg 'tool_sunny.svg' %}
     </div>
 
@@ -65,7 +63,7 @@ Below is a list of a couple of tools and technologies, that i like to use.
 ---
 
  
-<h1 class="text-3xl text-center">Technologies</h1>
+<h1 class="text-navi text-center">Technologies</h1>
 
 ### Web
 Usually i recommend wordpress as plattform, because it offers easy ways to manage the content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with only small extra costs in time and money.

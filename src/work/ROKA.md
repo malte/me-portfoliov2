@@ -10,7 +10,10 @@ projectUrl:
 featuredImg: ROKA-featured.png
 bgColor: 5e70e0
 featured: false
-tasks: ["Logo Design"]
+tags:
+  - Branding
+  - Logo
+  - Website
 year: 2021
 date: 2021-10-03
 ---

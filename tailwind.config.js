@@ -1,28 +1,11 @@
 module.exports = {
-  mode: 'jit',
-  purge: {
-    // enabled: true,
-    content: [
-      './src/**/*.njk',
-      './src/**/*.md',
-      './src/**/*.js',
-      './.*.js',
-      // './public/**/*.html'
-    ]
-  }, 
-  darkMode: 'class', // or 'media' or 'class'
+  content: ["./src/**/*.{html,md,njk,js}"],
   theme: {
-    fontFamily: {
-      'effra': ['effra', "Helvetica Neue", "Noto Sans", 'sans-serif'],
-    },
-  },
-  variants: {
     extend: {
-      fontFamily: ['dark']
+      fontFamily: {
+        sans: ["Archivo", "Helvetica", "Arial", "sans-serif"],
+      },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
-  ],
-}
+  plugins: [],
+};

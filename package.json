@@ -1,11 +1,11 @@
 {
   "name": "me-portfolio",
   "version": "1.0.0",
-  "description": "These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.",
+  "description": "portfolio for Malte Euler",
   "main": "index.js",
   "scripts": {
     "serve": "ELEVENTY_ENV=dev npx eleventy --serve",
-    "serve2": "eleventy --serve & postcss src/css/tailwind.css -o src/styles.css -w ",
+    "serve2": "eleventy --serve & postcss src/tailwind.css -o src/styles.css -w ",
     "start": "npm run serve",
     "build": "ELEVENTY_ENV=dev npx eleventy",
     "build:prod": "ELEVENTY_ENV=prod npx eleventy",
@@ -34,7 +34,7 @@
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
     "postcss-nested": "^5.0.6",
-    "tailwindcss": "^2.2.16"
+    "tailwindcss": "^3.0.23"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",

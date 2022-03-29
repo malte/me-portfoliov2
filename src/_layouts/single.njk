@@ -2,14 +2,14 @@
 layout: 'base.njk'
 ---
 
-<div class="px-5 2xl:px-0 mt-8 pb-24 md:pb-36">
-  <h1 class="text-3xl text-center">
+<div class="">
+  <h1 class="text-navi md:hidden">
       {{ title }}
   </h1>
-  <div class="description mt-8 cms-content">
+  <div class="description">
     {{ description | safe }}
   </div>
-  <div class="mx-auto content my-8 max-w-screen-lg cms-content">
+  <div class="grid grid-cols-6 gap-4 md-single">
     {{ content | safe }}
   </div>
 </div>

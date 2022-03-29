@@ -1,0 +1,51 @@
+---
+layout: 'base.njk'
+title: service
+---
+
+<div class="col-span-6 grid grid-cols-6 gap-4">
+  <div class="col-span-6 xl:col-span-4" x-data="{ selected: 1 }"">
+
+    <ul class="flex flex-col sm:flex-row gap-x-8 w-full">
+    {% for item in data.services %}
+      <li @click="selected = {{ loop.index }}"
+          class="cursor-pointer blur-[.2rem] p-4 text-slate-400 hover:blur-[.1rem] "
+          :class="selected === {{ loop.index }} && 'blur-[0] text-slate-500 bg-white hover:text-black hover:blur-[0]'">
+          <h2 class="text-big"> {{ item.name }}</h2>
+      </li>
+    {% endfor%}
+    </ul>
+    
+    <ul class="bg-white p-4">
+    {% for item in data.services %}
+      <li x-show="selected === {{ loop.index }}" class="flex flex-col justify-between ">
+        <h1 class="text-navi">Services</h1>
+        <div class="grid grid-cols-2 my-8 gap-4">
+          <ul class="list-disc pl-4">
+            {% for bullet in item.tags %}
+              <li>{{bullet}}</li>
+            {% endfor %}
+          </ul>
+          <p> {{ item.description }}</p>
+        </div>
+        <h1 class="text-navi">Tools and Software in use</h1>
+        <ul class="list-disc pl-4 my-8">
+            {% for tech in item.techs %}
+              <li>{{tech}}</li>
+            {% endfor %}
+          </ul>
+        <ul class="flex flex-col sm:flex-row align-center gap-4 text-navi">
+          <li class="py-0.5"> let's see some </li>
+          {% for link in item.links %}
+            <li class="rounded-full flex-shrink bg-gradient bg-gradient-to-b from-slate-200 to-slate-300 hover:bg-gradient-to-t py-0.5 px-3">
+              <a href="/tags/{{link}}">{{link | capitalize }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor%}
+    </ul>
+
+  </div>
+  <p>{{ content | safe}}</p>
+</div>

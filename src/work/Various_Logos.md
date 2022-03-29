@@ -7,16 +7,17 @@ testimonial:
 clientName: Various Clients
 clientPos: 
 projectUrl: 
-featuredImg:
+featuredImg: logos/logo_KOTORI.png
 bgColor: 7b1fa2
 featured: false
-tasks: ["Logo Design"]
+tags:
+  - Logo
 year: since 2009
 date: 2010-05-01
 ---
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-8 black-logos">
+<div class="col-span-6 grid grid-cols-3 gap-4 black-logos">
 {% simplFigure 'logos/logo_Fuchstreff.png', 'Fuchstreff - Doppelkopf Community', 'Fuchstreff - Doppelkopf Community' %}
 {% simplFigure 'logos/logo_Werner_Urban.png', 'Werner Urban - Sound & Music', 'Werner Urban - Sound & Music' %}
 {% simplFigure 'logos/logo_ET.png', 'ET Elastomer Technik', 'ET Elastomer Technik' %}

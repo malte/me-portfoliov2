@@ -11,9 +11,11 @@ featuredImg: 7SA-featured.png
 headerImg: 7SA_full_small95.jpg
 altHeaderImg: Mockup of Seven Summits Arbitration communication material
 tagHeaderImg: Seven Summits Arbitration Website and Stationary
-bgColor: 5e70e0
-featured: true
-tasks: ["Brand Design","Illustration","Web Design","Web Development"]
+tags:
+  - Branding
+  - Logo
+  - Website
+  - Illustration
 year: 2017
 date: 2017-10-01
 ---
@@ -25,7 +27,7 @@ Seven Summits Arbitration were looking for a classic look, when they were starti
 ## Print
 All Printmatter for 7SA sports 'himmiblau', bavarian for sky-blue, a blue Pantone Color, which allows for a much more saturated color than process print colors, especialy when it comes to blue.
 
-{% simplFigure '7SA_paper_small95.jpg', '7SA stationary and end of year card', '7SA stationary and end of year card' %}
+{% simplFigure '7SA_paper_small95.jpg', '7SA stationary and end of year card', '7SA stationary and end of year card','!col-start-1 !col-span-6' %}
 
 
 ## Website

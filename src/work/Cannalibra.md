@@ -13,7 +13,9 @@ altHeaderImg: Mockup of bottled CBD Oil
 tagHeaderImg: Mockup of bottle CBD Oil
 bgColor: 5e70e0
 featured: false
-tasks: ["Brand Design","Packeging"]
+tags:
+  - Branding
+  - Logo
 year: 2019
 date: 2019-10-09
 ---

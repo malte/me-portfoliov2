@@ -1,0 +1,21 @@
+{% set items = collections.work %}
+    <div class="grid grid-cols-6 gap-4 landing-gallery">
+      {% for item in items | reverse %}
+          <a
+          href="{{item.url}}"
+          title="view {{item.data.title}}"
+          class="work-thumbnail flex flex-col post relative md:hover:-translate-y-2 md:transition-transform">
+              <div  class="block w-full">
+                {% if item.data.featuredImg %}
+                <img class=""  src="../assets/media/{{item.data.featuredImg}}"  alt="Example Image for {{item.data.title}}" >
+                {% else %}
+                <div class="relative pt-[18%] pb-[58%] grid place-items-center">
+                  <h1 class="p-4 absolute text-sm text-black text-center">{{ item.data.title }}</h1>
+                </div>
+                {% endif %}
+              </div>
+              <p class="text-sm text-slate-400 tracking-wide">{{ item.data.clientName }}</p>
+          </a>
+      {% endfor %}
+
+    </div>

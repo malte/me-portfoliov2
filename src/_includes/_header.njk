@@ -1,0 +1,27 @@
+<header class="">
+    <a href="/" class="hover:underline text-big leading-none">
+        {{ metadata.description | safe }}</br>
+        <span class="italic">
+        {{ metadata.name | safe }}
+        </span>
+    </a>
+    <nav class="mt-4 hidden md:block">
+
+        {% set navPages = collections.all | eleventyNavigation %}
+        
+        <ul class="mb-4">
+        {%- for entry in navPages %}    
+            <li class="">
+                <a @click="navOpen = false" 
+                href="{{ entry.url | url }}"
+                class="inner-link
+                {% if entry.url == page.url %}
+                link-active
+                {% else %}
+                {% endif %}">{{ entry.title }}</a>
+            </li>
+        {%- endfor %}
+        </ul>
+        {% include "../_includes/_tag-list.njk" %}
+    </nav>
+</header>

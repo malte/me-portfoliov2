@@ -1,0 +1,18 @@
+
+{% if tags %}{% set showtags = tags %}{% endif %}
+<ul>
+{% for tag in collections.tagList | sort() %}
+
+  <li class="">
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="inner-link 
+    {% if tagUrl == page.url | lower %}
+      link-active
+    {% elseif tags and tag in showtags %}
+      show 
+    {% else %}
+    {% endif %}">{{ tag }}</a>
+  </li>
+{% endfor %}
+</ul>
+

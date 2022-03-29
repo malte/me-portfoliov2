@@ -4,12 +4,8 @@ title: work
 ---
 
 <div class="px-5 2xl:px-0 mt-8 mb-12">
-  <h1 class="text-center text-3xl">
-      {{ data.workTitle }}
-  </h1>
-  <p>{{ description }}</p>
   {% block workGrid %}
-    {% include '../_components/_workGrid.njk' %}
+    {% include '../_includes/_projects.njk' %}
   {% endblock workGrid %}
 
   <p>{{ content | safe}}</p>

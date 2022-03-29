@@ -1,0 +1,34 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - work
+permalink: /tags/{{ tag }}/
+layout: base.njk
+---
+
+{% set taglist = collections[ tag ] %}
+    <div class="grid grid-cols-6 gap-4 tag-gallery">
+
+      {% for item in taglist | reverse %}
+          <a
+          href="{{item.url}}"
+          title="view {{item.data.title}}"
+          class="work-thumbnail col-span-2 flex flex-col item relative md:hover:-translate-y-2 md:transition-transform">
+              <div  class="block w-full">
+                {% if item.data.featuredImg %}
+                <img class="" src="../../assets/media/{{item.data.featuredImg}}"  alt="Example Image for {{item.data.title}}" >
+                {% else %}
+                <div class="relative pt-[18%] pb-[58%] grid place-items-center">
+                  <h1 class="p-4 opacity-90 absolute text-small text-black text-center">{{ item.data.title }}</h1>
+                </div>
+                {% endif %}
+              </div>
+              <p class="text-small text-slate-600">{{ item.data.clientName }}</p>
+          </a>
+      {% endfor %}
+
+    </div>
+

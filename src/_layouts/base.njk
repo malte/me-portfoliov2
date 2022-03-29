@@ -9,57 +9,44 @@
       <meta name="robots" content="follow, index" />
       <title>{{ title }}</title>
       <link rel="shortcut icon" type="image/png" href="{{'/assets/Favicon_me_32.png' | url }}" />
-      <link rel="stylesheet" href="https://use.typekit.net/jmc0wpu.css">
       <link rel="stylesheet" href="./styles.css">
       <link rel="stylesheet" href="{{ '/styles.css' | url }}" rel="preload" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
       <noscript>
         <link href="{{ '/styles.css' | url }}" rel="stylesheet" type="text/css" />
       </noscript>
-      <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-  <body class="bg-gray-100 min-h-full text-gray-900 dark:bg-gray-800 dark:text-gray-50 font-effra transition-colors "
-        :class="{'overflow-hidden': navOpen, 'overflow-scroll': !navOpen }"
-        x-data="{navOpen: false, scrolledFromTop: false, 'darkMode': false}"
-        x-init="
-          window.pageYOffset >= 50 ? (scrolledFromTop = true) : (scrolledFromTop = false);
-          darkMode = JSON.parse(localStorage.getItem('darkMode'));
-          $watch('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)));"
-          @scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
-        >
+  <body class="bg-gradient-to-r from-white to-slate-100">
+    <div class="wrapper min-h-full font-sans transition-colors grid md:grid-cols-8 gap-4 px-4"
+      x-data="{ navOpen: false }"
+      :class="{'nav-open': navOpen}" >
+      <div class="fixed breakpoints bg-yellow-300 text-black"></div>
+ 
+      <button class="md:hidden z-20 fixed bottom-4 right-4 h-12 w-12 bg-white rounded-full flex justify-center items-center shadow-xl" @click="navOpen = !navOpen">
+        <div class="w-6 flex items-center justify-center relative">
+          <span x-bind:class="navOpen ? 'translate-y-0 rotate-45' : '-translate-y-2'"
+                class="transform transition w-full h-[.2rem] bg-current absolute"></span>
           
-        {% block header %}
-        {% include "../_components/_header.njk" %}
-        {% endblock %}   
-        <div class="main pt-48">
+          <span x-bind:class="navOpen ? 'opacity-0 translate-x-3' : 'opacity-100'"
+                class="transform transition w-full h-[.2rem] bg-current absolute"></span>
+          
+          <span x-bind:class="navOpen ? 'translate-y-0 -rotate-45' : 'translate-y-2'"
+                class="transform transition w-full h-[.2rem] bg-current absolute"></span>
+    </div>
+      </button>
 
-          {% if page.url==='/'%}
-          {% block hero %}
-          {% include '../_components/_hero.njk' %}
-          {% endblock hero %}
-          {% endif %}
-          
-          <div id="content" role="main" class="max-w-screen-2xl lg:mx-auto">
-            {{ content | safe }}
-          </div>
-        </div>
-        
-        
-        {% block footer %}
-        {% include "../_components/_footer.njk" %}
-        {% endblock %}
-        
-    <!-- <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script> -->
+      <div class="col-span-2 md:w-1/4 fixed h-screen flex flex-col justify-between py-4 ">
+         
+         
+          {% include "../_includes/_header.njk" %}
+
+          {% include "../_includes/_footer.njk" %}
+      </div> 
+
+      <div id="content" role="main" class="md:col-start-3 md:col-span-6 py-4 mt-24 md:mt-0">
+          {{ content | safe }}
+      </div>
+    </div>
   </body>
 </html>

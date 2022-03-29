@@ -13,7 +13,9 @@ tagHeaderImg: no Future Postcard and Website
 featuredImg: NoFuture-featured.png
 bgColor: 50e2ff
 featured: true
-tasks: ["Illustration", "Web Design", "Web Development"]
+tags:
+  - Website
+  - Illustration
 year: 2021
 date: 2021-10-06
 ---

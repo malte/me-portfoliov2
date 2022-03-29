@@ -1,37 +1,54 @@
 {	
 	"services": [
 		{
-			"name": "Services",
-			"description": "From corporate design and content to print and web production, i help your brand to reach its audience."
-		},
-		{
 			"name": "Branding & Identity",
-			"description": "",
+			"description": "Although typeface and color already create visual identity, a strong logo never fails to make a lasting impression and creates a sharper image.",
 			"tags": [
 				"Logo Design", 
 				"Brand Typography", 
 				"Color Concept",
 				"Design Manuals" 
-			]
+			],
+			"techs": [
+				"Coffee and Time",
+				"Pen and Paper",
+				"Adobe Creative Cloud"
+			],
+			"links":["branding","logo"]
 		},
 		{
 			"name": "Web Design / Development",
-			"description": "",
+			"description": "Wordpress offers easy ways to manage the website content for the client. Also, since it is such a popular plattform, there are plugins for everthing, so the functionality of the website can be expanded with very little effort.",
 			"tags": [
 				"UI & Web Design",
 				"Responsive Development",
 				"Design Systems",
 				"WordPress"
-			]
+			],
+			"techs": [
+				"Figma or Adobe XD for UI Design, wireframing and prototyping",
+				"Wordpress with Timber for CMS and theme development",
+				"Tailwind Css for styling",
+				"Alpine js for interaction",
+				"11ty Static site generator, when the website does not need a full content managment system."
+			],
+			"links":["website"]
 		},
 		{
 			"name": "Content Creation",
-			"description": "",
+			"description": "The abstraction of a drawing communicates a message in a clear way by omitting the unnecessary. Unlike a photo, which says more than a thousand words, which usually is to much.",
 			"tags": [
 				"Icons",
 				"Illustration",
 				"Animation"
-			]
+			],
+			"techs": [
+				"Pen and Paper",
+				"Procreate for Ipad",
+				"Adobe creative Cloud, especially Illustrator and After Effects",
+				"Blender - free 3d and 2d animation software"
+			],
+			"links":["illustration","animation"]
 		}
 	],
 	"workTitle": "Ideas • Identities • Illustration • Animation • Web Design",

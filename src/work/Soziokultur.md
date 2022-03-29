@@ -7,13 +7,12 @@ testimonial:
 clientName: anschlaege.de
 clientPos: 
 projectUrl: https://utopolis.online/
-featuredImg: Utopolis-featured.png
+featuredImg: utopolis_screens_small95.jpg
 headerImg: utopolis_screens_small95.jpg
 altHeaderImg: Render of utopolis Website
 tagHeaderImg: utopolis Website Views
-bgColor: fff265
-featured: false
-tasks: ["Web Design"]
+tags:
+  - Website
 year: 2020
 date: 2020-10-05
 ---
